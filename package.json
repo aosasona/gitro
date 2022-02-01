@@ -1,0 +1,32 @@
+{
+  "name": "gitro",
+  "version": "1.2.2",
+  "description": "Run common Git and Tailwindcss commands fast and easily!",
+  "main": "index.js",
+  "scripts": {
+  },
+  "bin": {
+    "gcom": "bin/gitro-commit.js",
+    "gpush": "bin/gitro-push.js",
+    "gbuild": "bin/gitro-tailwind.js",
+    "gcap": "bin/gitro-cap.js",
+    "gitro-commit": "bin/gitro-commit.js",
+    "gitro-push": "bin/gitro-push.js",
+    "gitro-build": "bin/gitro-tailwind.js",
+    "gitro-commit-push": "bin/gitro-cap.js",
+    "gitro": "bin/gitro.js"
+  },
+  "keywords": [
+    "gitro",
+    "tailwindcss",
+    "build",
+    "git",
+    "compile",
+    "chaining"
+  ],
+  "author": "Ayodeji Osasona",
+  "license": "ISC",
+  "dependencies": {
+    "shelljs": "^0.8.5"
+  }
+}
