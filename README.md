@@ -1,6 +1,6 @@
 ******* Gitro NPM package *******
 
-    Version 1.3.0
+    Version 1.3.1
 
 Gitro allows you to run the multiple Git commands and TailwindCSS compilation with one command. Gitro is TOTALLY free, open-source, easy to edit & install.
 
@@ -66,5 +66,7 @@ SUMMARY : Input file: /src/style.css | Output file: /src/assets/main.css
 This is the only the first version which I use personally too, you can edit these scripts yourself if you can. For any help, reach me @techacumenyt on Twitter. And I'll keep updating this package too. Happy coding!
 
 CHANGELOG 
+
+    1.3.1 - Changed commit message
 
     1.3.0 - Changed "push" command to include upstream
