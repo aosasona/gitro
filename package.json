@@ -1,7 +1,7 @@
 {
   "name": "gitro",
-  "version": "1.4.1",
-  "description": "Run common Git and Tailwindcss commands fast and easily!",
+  "version": "1.5.0",
+  "description": "Run common JS development commands fast and easily!",
   "main": "index.js",
   "scripts": {},
   "bin": {
@@ -13,9 +13,11 @@
     "gitro-push": "bin/gitro-push.js",
     "gitro-build": "bin/gitro-tailwind.js",
     "gitro-commit-push": "bin/gitro-cap.js",
-    "gtail": "bin/git-tail-init.js",
+    "gtail": "bin/gitro-tail-init.js",
     "greact": "bin/gitro-react.js",
+    "gexpress": "bin/gitro-express.js",
     "ghelp": "bin/gitro-help.js",
+    "gmern": "bin/gitro-mern.js",
     "gitro": "bin/gitro.js"
   },
   "keywords": [

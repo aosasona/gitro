@@ -1,6 +1,6 @@
 ******* Gitro NPM package *******
 
-    Version 1.4.1
+    Version 1.5.0
 
 Gitro allows you to run the multiple Git commands and TailwindCSS compilation with one command. Gitro is TOTALLY free, open-source, easy to edit & install.
 
@@ -27,6 +27,7 @@ NOTE: You might be prompted to enter your Username and your Github token (Normal
 To use the built-in Tailwindcss compiler command, create a "main.css" file in /src/assets/ directory and ensure you have the CSS you will be compiling from in the /src/ folder.
 
 SUMMARY : Input file: /src/style.css | Output file: /src/assets/main.css
+You can change this by editing the gitro-tailwind.js file in the package
 
 
 ******* COMMAND SHEET *******
@@ -35,9 +36,17 @@ SUMMARY : Input file: /src/style.css | Output file: /src/assets/main.css
 
     > ghelp
 
--> To install ReactJS ReactDOM and React Router (v5)
+-> To install Express, Mongoose, Concurrently, Nodemon & Body-parser
+
+    > gexpress
+
+-> To install ReactJS, ReactDOM and React Router (v5)
 
     > greact
+
+-> To install MERN stack dependencies (ReactJS, ExpressJS and their dependencies)
+
+    > gmern
 
 -> To install and initialize TailwindCSS
 
@@ -78,11 +87,10 @@ SUMMARY : Input file: /src/style.css | Output file: /src/assets/main.css
 This is the only the first version which I use personally too, you can edit these scripts yourself if you can. For any help, reach me @_realao on Twitter. And I'll keep updating this package too. Happy coding! The public repo is at https://github.com/aosasona/gitro
 
 CHANGELOG 
-    1.4.0 - Added Tailwindcss install and init commands 
-            Added 'git pull' to the 'gpush' command
-            Added a 'ghelp' command to list available commands
-            Added ReactJS one-command dependencies installer (install react-router-dom@5 which uses 'switch' instead of 'routes')
-            You do not need to run gbuild everytime you use a TailwindCSS class anymore
+
+    1.5.0 - Added ExpressJS development dependencies installation command, added React itself to the "greact" command in case you don't have React installed already for that project, added a MERN dependencies installation command 
+
+    1.4.1 - Added Tailwindcss install and init commands, added 'git pull' to the 'gpush' command, added a 'ghelp' command to list available commands, added ReactJS one-command dependencies installer (install react-router-dom@5 which uses 'switch' instead of 'routes'), You do not need to run gbuild everytime you use a TailwindCSS class anymore
 
     1.3.1 - Changed commit message
 
