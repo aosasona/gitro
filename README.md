@@ -1,8 +1,8 @@
 ******* Gitro NPM package *******
 
-    Version 1.5.0
+    Version 1.5.1
 
-Gitro allows you to run the multiple Git commands and TailwindCSS compilation with one command. Gitro is TOTALLY free, open-source, easy to edit & install.
+Gitro allows you to run the multiple Git, Tailwind, and Node/NPM CLI commands with one command. Gitro is TOTALLY free, open-source, easy to edit & install.
 
 ******* INSTALLATION *******
 
@@ -87,6 +87,8 @@ You can change this by editing the gitro-tailwind.js file in the package
 This is the only the first version which I use personally too, you can edit these scripts yourself if you can. For any help, reach me @_realao on Twitter. And I'll keep updating this package too. Happy coding! The public repo is at https://github.com/aosasona/gitro
 
 CHANGELOG 
+
+    1.5.1 - Updated Readme.md - I forgot, lmao
 
     1.5.0 - Added ExpressJS development dependencies installation command, added React itself to the "greact" command in case you don't have React installed already for that project, added a MERN dependencies installation command 
 
